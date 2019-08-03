@@ -1,0 +1,10 @@
+#surefire_0
+#Sat Aug 03 05:36:30 EET 2019
+test.case.ProfilePic=/home/amr/Pictures/www.png
+test.case.profile=/home/amr/.config/google-chrome/Profile 2
+user.dir=/home/amr/EclipseWS/Vezeta
+log4j.configurationFile=${sys\:user.home}${sys\:file.separator}${LogDir}${sys\:file.separator}log4j2.xml
+localRepository=/home/amr/.m2/repository
+basedir=/home/amr/EclipseWS/Vezeta
+test.case.browser=chrome
+test.case.email=veez.linked.asl@gmail.com

@@ -1,0 +1,8 @@
+#surefire_0
+#Sat Aug 03 05:17:03 EET 2019
+user.dir=/home/amr/EclipseWS/Vezeta
+log4j.configurationFile=${sys\:user.home}${sys\:file.separator}${LogDir}${sys\:file.separator}log4j2.xml
+localRepository=/home/amr/.m2/repository
+test.driver.location=/home/amr/chromedriver
+test.user.profile=/home/amr/.config/google-chrome/
+basedir=/home/amr/EclipseWS/Vezeta

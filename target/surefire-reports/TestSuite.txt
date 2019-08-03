@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 28.714 s <<< FAILURE! - in TestSuite
+CreateProfile(Vezeta.Vezeta.LinkedInFF)  Time elapsed: 25.499 s  <<< FAILURE!
+java.lang.RuntimeException: 
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.sXFga0}, goog:chromeOptions: {debuggerAddress: localhost:46835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63c4609b3a705095cf46f136a416d347
+*** Element info: {Using=xpath, value=//a[text()='Join now']}
+	at Vezeta.Vezeta.LinkedInFF.CreateProfile(LinkedInFF.java:178)
+Caused by: org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.sXFga0}, goog:chromeOptions: {debuggerAddress: localhost:46835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63c4609b3a705095cf46f136a416d347
+*** Element info: {Using=xpath, value=//a[text()='Join now']}
+	at Vezeta.Vezeta.LinkedInFF.isElementPresent(LinkedInFF.java:69)
+	at Vezeta.Vezeta.LinkedInFF.CreateProfile(LinkedInFF.java:175)
+
+getConfCode(Vezeta.Vezeta.LinkedInFF)  Time elapsed: 0.796 s  <<< FAILURE!
+java.lang.RuntimeException: 
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.ceD8lS}, goog:chromeOptions: {debuggerAddress: localhost:37471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db5a7d0ac5c23b7949cc041b05d29a95
+*** Element info: {Using=xpath, value=//span[@name='LinkedIn Messages'][@email='security-noreply@linkedin.com'])[2]}
+	at Vezeta.Vezeta.LinkedInFF.getConfCode(LinkedInFF.java:331)
+Caused by: org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.ceD8lS}, goog:chromeOptions: {debuggerAddress: localhost:37471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db5a7d0ac5c23b7949cc041b05d29a95
+*** Element info: {Using=xpath, value=//span[@name='LinkedIn Messages'][@email='security-noreply@linkedin.com'])[2]}
+	at Vezeta.Vezeta.LinkedInFF.isElementPresent(LinkedInFF.java:69)
+	at Vezeta.Vezeta.LinkedInFF.getConfCode(LinkedInFF.java:328)
+
+linkedinConf(Vezeta.Vezeta.LinkedInFF)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.sXFga0}, goog:chromeOptions: {debuggerAddress: localhost:46835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63c4609b3a705095cf46f136a416d347
+*** Element info: {Using=id, value=email-confirmation-input}
+	at Vezeta.Vezeta.LinkedInFF.linkedinConf(LinkedInFF.java:373)
+
+editProfile(Vezeta.Vezeta.LinkedInFF)  Time elapsed: 0.009 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.sXFga0}, goog:chromeOptions: {debuggerAddress: localhost:46835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63c4609b3a705095cf46f136a416d347
+	at Vezeta.Vezeta.LinkedInFF.editProfile(LinkedInFF.java:380)
+
+LinkedInSignOutForgetPass(Vezeta.Vezeta.LinkedInFF)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.RuntimeException: 
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.sXFga0}, goog:chromeOptions: {debuggerAddress: localhost:46835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63c4609b3a705095cf46f136a416d347
+*** Element info: {Using=css selector, value=#nav-settings__dropdown-trigger [alt]}
+	at Vezeta.Vezeta.LinkedInFF.LinkedInSignOutForgetPass(LinkedInFF.java:640)
+Caused by: org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=76.0.3809.87)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Elkholy', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-55-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /tmp/.com.google.Chrome.sXFga0}, goog:chromeOptions: {debuggerAddress: localhost:46835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63c4609b3a705095cf46f136a416d347
+*** Element info: {Using=css selector, value=#nav-settings__dropdown-trigger [alt]}
+	at Vezeta.Vezeta.LinkedInFF.isElementPresent(LinkedInFF.java:69)
+	at Vezeta.Vezeta.LinkedInFF.LinkedInSignOutForgetPass(LinkedInFF.java:637)
+
