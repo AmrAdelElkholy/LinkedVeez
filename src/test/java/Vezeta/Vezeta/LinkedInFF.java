@@ -112,13 +112,13 @@ public void setupDriver()
 		System.err.println(">>>>>Server"+ProxyList.get(ServerNum));
 		options.addArguments("--proxy-server=http://"+ProxyList.get(ServerNum));
 		//options.setBinary("/opt/google/chrome/google-chrome");
-		System.err.print(">>>>>>>>>>>>>>>>>"+System.getProperty("test.user.profile"));
+		
 		//options.addArguments("chrome.switches", "--disable-extensions");
-		options.addArguments("profile-directory=Profile 4");
+		//options.addArguments("profile-directory=Profile 4");
 		options.addArguments("user-agent="+System.currentTimeMillis());
 		
 		//Define Profile to chrome to start with logged in mail
-		//options.addArguments("user-data-dir="+Profile);
+		options.addArguments("user-data-dir="+Profile);
 		//options.setExperimentalOption("useAutomationExtension", false);
 		//options.setExperimentalOption("prefs", preferences);
 		options.addArguments("--start-maximized");
@@ -163,7 +163,7 @@ public void setupDriver()
 @Test(priority = 0)
 public void CreateProfile() throws InterruptedException
 {
-	driver.get("https://mail.google.com");
+	driver.get("https://www.linkedin.com");
 	
 	//wait Join Now button
 	for (int second = 0;; second++) {
